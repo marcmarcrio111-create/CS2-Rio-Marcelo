@@ -2,25 +2,25 @@
 
 PREVIEW OF CODE:
 
-#Electricity Bill Calculator
+Electricity Bill Calculator
 RATE = 12.90
 name = input("Enter customer name: ")
 
-#Validate customer name
+Validate customer name
 if name.strip() == "":
   print("Invalid name. Please try again.")
   name = input("Enter customer name: ")
   
 previous = float(input("Enter previous meter reading: "))
 
-#Validating pevious reading
+Validating pevious reading
 if previous <= 0:
     print("Invalid reading. Please try again.")
     previous = float(input("Enter previous meter reading: "))
     
 current = float(input("Enter current meter reading: "))
 
-#Validating current reading
+Validating current reading
 if current <= previous:
     print("Invalid reading. Try again.")
     current = float(input("Enter current meter reading: "))
