@@ -3,7 +3,7 @@
 ## PREVIEW OF CODE:
 
 **Electricity Bill Calculator**
-'RATE = 12.90
+'RATE = 12.90'
 name = input("Enter customer name: ")
 
 *Validate customer name*
