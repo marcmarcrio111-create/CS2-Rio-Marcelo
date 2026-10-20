@@ -36,3 +36,12 @@ print("Total Bill: PHP", round(total_bill, 2))
 1. Customer name -- Must not be empty
 2. Previous reading -- Number at least 0
 3. Current reading -- Number at least the previous reading
+
+# HOW TO RUN
+- Open file in a program that can run python (or copy it and paste it onto a compiler like OnlineGDB)
+- Start the program
+- Enter customer name
+- Enter previous reading
+- Enter current reading
+
+- Note: It will warn you and make you re type of you put something invalid (like an empty name or invalid readings)!
